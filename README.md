@@ -154,7 +154,7 @@
 * **에포크 루프:** 총 3 에포크(Epochs) 동안 `for batch in train_dataloader:` 반복문을 직접 수행하며 `loss.backward()` 및 `optimizer.step()` 구조의 역전파를 수동 제어하였다.
 
 ### 5.3 학습 결과 성능 그래프
-![MobileBERT 학습 곡선 그래프](figure.png)
+![MobileBERT 학습 곡선 그래프](Figure.png)
 *(파이토치 기반 훈련 스크립트(`train_model.py`)를 통해 도출해 낸 에포크별 Training Loss 및 Validation Accuracy 메트릭 곡선이다. 128차원 대비 256차원 확장 모델에서 장문 문맥 수용력이 증대되어 최종 75.2%의 한층 더 우수한 검증 정확도를 안정적으로 확보하였다.)*
 ---
 
